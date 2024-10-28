@@ -36,7 +36,8 @@ server:
 
 eureka:
   instance:
-    hostname: localhost
+    preferIpAddress: true
+    hostname: 34.45.202.104
   client:
     serviceUrl:
       defaultZone: http://34.45.202.104:81/eureka/
